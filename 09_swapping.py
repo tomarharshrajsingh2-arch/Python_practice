@@ -19,3 +19,7 @@ i,j=j,i
 print("after swapping")
 print(f"i : {i}")
 print(f"j : {j}") 
+print("swapping done successfully")
+
+# git add *
+# git commit -m "message"
