@@ -23,3 +23,4 @@ print("swapping done successfully")
 
 # git add *
 # git commit -m "message"
+# git push
