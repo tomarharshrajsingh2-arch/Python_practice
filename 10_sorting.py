@@ -1,4 +1,4 @@
-#list=[8,10,6,2,4]
+list=[8,10,6,2,4]
 list=[1,2,3,4,5]
 swapped = True
 count=0
