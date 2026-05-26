@@ -8,4 +8,4 @@ vacancy=0
 for room_number in range(20):
     if not rooms[1][9][room_number]:
         vacancy+=1
-print(f"Number of vacant rooms: {vacancy}")
+print(f"Number of vacant rooms at 10th floor 2nd building: {vacancy}")
