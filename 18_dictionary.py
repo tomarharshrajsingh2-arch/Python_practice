@@ -78,3 +78,64 @@
 # print(dict2)
 # dict2.popitem()
 # print(dict2)
+
+# dictionary={
+#     "cat":"chat",
+#     "dog":"chien",
+#     "horse":"cheval"
+# }
+
+# if "cat" in dictionary:
+#     print("cat is present in the dictionary")
+# else:
+#     print("cat is not present in the dictionary")
+
+
+# if "lion" not in dictionary:
+#     print("lion is not present in the dictionary")
+# else:  
+#      print("lion is present in the dictionary")
+
+
+# print(dictionary)
+# print(len(dictionary))
+# del dictionary["cat"]
+# print(dictionary)
+# print(len(dictionary))
+# dictionary.clear()
+# print(dictionary)
+# print(len(dictionary))
+
+# del dictionary
+# print(dictionary)
+
+
+
+# dictionary.update({"lion":"lion"})
+# print(dictionary)
+
+
+student={}
+
+while True:
+    name=input("enter name of student :")
+    if name=='':
+        break
+    else:
+        marks=int(input("enter marks of student :"))
+        if marks not in range(1,11):
+            break
+        if name in student :
+            student[name]+=(marks,)
+        else:
+            student[name]=(marks,)
+print (student) 
+
+for name,mark in student.items():
+    sum=0
+    for m in mark:
+        sum += m
+    print(name,"-->",sum/len(mark))
+
+
+
