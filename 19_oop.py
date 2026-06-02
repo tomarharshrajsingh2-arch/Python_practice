@@ -53,10 +53,20 @@
 # obj=classy()
 # obj.method(1)
 
-class classy:
-    varia = 2
-    def method(self):
-        print(self.varia, self.var)
-obj = classy()
-obj.var = 3
-obj.method()
+# class classy:
+#     varia = 2
+#     def method(self):
+#         print(self.varia, self.var)
+# obj = classy()
+# obj.var = 3
+# obj.method()
+
+class star:
+    def __init__(self,name,galaxy):
+        self.name=name
+        self.galaxy=galaxy
+
+    def __str__ (self):
+        return self.name + ' in ' +self.galaxy    
+sun=star("sun","milky way")
+print(sun)
