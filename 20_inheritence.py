@@ -58,3 +58,5 @@ obj=Level3()
 print(obj.variable_1,obj.var_1,obj.fun_1())
 print(obj.variable_2,obj.var_2,obj.fun_2())
 print(obj.variable_3,obj.var_3,obj.fun_3())
+
+ 
