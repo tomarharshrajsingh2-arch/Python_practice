@@ -41,7 +41,7 @@ class Right:
     var_right = "RR"
     def fun(self):
         return "Right"
-class Sub(Left,Right):
+class Sub(Right,Left):
     pass
 obj=Sub()
 print(obj.var,obj.var_left,obj.var_right,obj.fun())
