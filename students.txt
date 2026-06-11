@@ -1,0 +1,3 @@
+Rahul,22,Bhopal,Engineer
+Priya,21,Indore,Doctor
+Amit,23,Bhopal,Teacher
