@@ -28,8 +28,3 @@ df=pd.DataFrame({
 # plt.figure(figsize=(5,4))
 # sns.heatmap(df[['Marks','Study_hours']].corr(),annot=True,cmap='coolwarm',vmin=-1,vmax=1)
 # plt.title('corelation matrix')
-# plt.show()
-
-##pair plot
-sns.pairplot(df[['Marks','Study_hours']], diag_kind='kde')
-plt.show()
